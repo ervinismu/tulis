@@ -16,6 +16,16 @@ Tulis app with elixir and phoenix framework.
 - Start phoenix endpoint `mix phx.server`
 - Visit [`localhost:4000`](http://localhost:4000) from your browser.
 
+## Set Env Variables
+
+```bash
+export TULIS_DB_USERNAME="youruser"
+export TULIS_DB_PASSWORD="yourpasswd"
+export TULIS_DB_HOSTNAME="yourhost"
+export TULIS_DB_NAME="yourdb"
+export TULIS_DB_PORT="yourport"
+```
+
 ## Deployment
 
 For free deployment, you can use fly.io and follow along [this article](https://fly.io/docs/elixir/) for setup and deployment.

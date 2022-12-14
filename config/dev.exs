@@ -2,11 +2,11 @@ import Config
 
 # Configure your database
 config :tulis, Tulis.Repo,
-  username: "myuser",
-  password: "mysecretpassword",
-  hostname: "localhost",
-  database: "tulis_dev",
-  port: "5434",
+  username: System.get_env("TULIS_DB_USERNAME"),
+  password: System.get_env("TULIS_DB_PASSWORD"),
+  hostname: System.get_env("TULIS_DB_HOSTNAME"),
+  database: System.get_env("TULIS_DB_NAME"),
+  port: System.get_env("TULIS_DB_PORT"),
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
