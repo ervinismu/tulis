@@ -16,7 +16,13 @@ Tulis app with elixir and phoenix framework.
 - Start phoenix endpoint `mix phx.server`
 - Visit [`localhost:4000`](http://localhost:4000) from your browser.
 
-## Directory Structures
+## Deployment
+
+For free deployment, you can use fly.io and follow along [this article](https://fly.io/docs/elixir/) for setup and deployment.
+
+## About Project
+
+### Directory Structures
 
 ```
 ❯ tree -L 1 -d
