@@ -48,7 +48,7 @@ For free deployment, you can use fly.io and follow along [this article](https://
 7 directories
 ```
 
-- `_build` - a directory created by the mix command line tool that ships as part of Elixir that holds all compilation artifacts. As we have seen in "Up and Running", mix is the main interface to your application. We use Mix to compile our code, create databases, run our server, and more. This directory must not be checked into version control and it can be removed at any time. Removing it will force Mix to rebuild your application from scratch.
+- `_build` - a directory created by the mix command line tool that ships as part of Elixir that holds all compilation artifacts. As we have seen in ["Up and Running"](https://hexdocs.pm/phoenix/up_and_running.html), mix is the main interface to your application. We use Mix to compile our code, create databases, run our server, and more. This directory must not be checked into version control and it can be removed at any time. Removing it will force Mix to rebuild your application from scratch.
 
 - `assets` - a directory that keeps everything related to source front-end assets, such as JavaScript and CSS, and automatically managed by the esbuild tool.
 
