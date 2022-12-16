@@ -30,6 +30,22 @@ export TULIS_DB_PORT="yourport"
 
 For free deployment, you can use fly.io and follow along [this article](https://fly.io/docs/elixir/) for setup and deployment.
 
+## Basic Commands
+
+> Note :  
+> Several command are availables in Makefile, you can check all available commands using `make help`
+
+### Database
+
+- create database : `mix ecto.create`
+- migration database : `mix ecto.migrate`
+- create & migrate database : `mix ecto.setup`
+
+### Test
+
+You can use command `mix test` for running testing locally. And sample output will be like this :
+![Test Output](https://fbangwfofjlewpyokcfn.supabase.co/storage/v1/object/public/assets/test-output?t=2022-12-16T13%3A03%3A35.734Z "Test Output")
+
 ## About Project
 
 ### Directory Structures

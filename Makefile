@@ -22,6 +22,13 @@ run:
 	@echo "=================="
 	mix phx.server
 
+test: ## Running testing locally.
+test:
+	@echo "=================="
+	@echo "RUN"
+	@echo "=================="
+	mix test
+
 init-db: ## Init DB. For example, create DB if not exist
 init-db:
 	@echo "=================="
@@ -34,4 +41,4 @@ init-env:
 	@echo "=================="
 	@echo "INIT ENV"
 	@echo "=================="
-	@source .env.sh
+	@source env.sh
